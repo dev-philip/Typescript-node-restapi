@@ -6,10 +6,9 @@
   "author": "Philip Awobusuyi",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --config nodemon.json src/app.ts"
+    "start": "nodemon --config nodemon.json src/app.ts"
   },
   "dependencies": {
-    "@types/yup": "^0.32.0",
     "bcrypt": "^5.0.1",
     "config": "^3.3.7",
     "cors": "^2.8.5",
@@ -20,8 +19,8 @@
     "mongoose": "^6.5.3",
     "nanoid": "^4.0.0",
     "nodemon": "^2.0.19",
-    "pino": "^8.4.2",
-    "pino-pretty": "^9.1.0"
+    "pino-pretty": "^9.1.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
