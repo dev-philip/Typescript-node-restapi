@@ -1,5 +1,5 @@
 export default {
-  port: 1337,
+  port: 3000,
   host: "localhost",
-  dbUri: "mongodb://localhost:27017/rest-api"
+  dbUri: "mongodb+srv://harwop2x:vNlQVPJmXTBNwqDg@cluster0.1gi59.mongodb.net/?retryWrites=true&w=majority"
 }
