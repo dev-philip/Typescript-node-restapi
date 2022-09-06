@@ -19,6 +19,7 @@ app.listen(port, host, () => {
     log.warn(`Hello World`);
     log.warn(`Hello World2`);
     log.warn(`Hello World3`);
+    log.warn(`Hello World4`);
     connect();
     routes(app);
 });
