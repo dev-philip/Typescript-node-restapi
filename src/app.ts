@@ -17,6 +17,7 @@ app.use(express.urlencoded({
 app.listen(port, host, () => {
     log.info(`Server listing at http://${host}:${port}`);
     log.info(`HELLO WORLD`);
+    log.info(`HELLO WORLD1`);
     connect();
     routes(app);
 });
